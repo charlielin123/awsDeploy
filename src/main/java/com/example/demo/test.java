@@ -10,4 +10,8 @@ public class test {
     public String name() {
         return " skldflskadfjasdf";
     }
+    @GetMapping("/")
+    public String name2() {
+        return "你好啊 旅行者";
+    }
 }
